@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Harsh web chrome extension2",
+    "description": "details!",
+    "version": "1.0",
+ 
+    "browser_action": {
+      
+      "default_popup": "index.html"
+    },
+    
+  "permissions": [
+		"downloads"
+  ]
+}

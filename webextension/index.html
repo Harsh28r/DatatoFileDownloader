@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Export-From-JSON Example</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<pre id="data" style="padding: 8px; border: whitesmoke double 4px; background-color: lightgray; ">
+[
+    ["name1",1,2,3], ["name2",4,54,44], ["name3",212,212,1213], ["name4",32,133,33]
+]
+</pre>
+<label>file name: <input id="fileName" value="books" placeholder="file name"/></label>
+<button onclick="download('txt')">download plain text file</button>
+<button onclick="download('json')">download JSON file</button>
+<button onclick="download('csv')">download CSV file</button>
+<button onclick="download('xls')">download XLS file(Excel)</button>
+<!-- partial -->
+  <script src='https://unpkg.com/export-from-json'></script><script  src="./script.js"></script>
+
+</body>
+</html>
